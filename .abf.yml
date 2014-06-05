@@ -1,2 +1,4 @@
+removed_sources:
+  CGI-Lite-2.02.tar.bz2: c25f4da035fba1f6fa2ae1cc8410cb31dedcc9c8
 sources:
-  "CGI-Lite-2.02.tar.bz2": c25f4da035fba1f6fa2ae1cc8410cb31dedcc9c8
+  CGI-Lite-2.03.tar.gz: 9310b06f119dab5b26c581dfa3781d4d4da8ba86
