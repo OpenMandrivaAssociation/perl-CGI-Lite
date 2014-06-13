@@ -7,6 +7,7 @@ Release:	1
 
 Summary:	CGI-Lite module for perl 
 
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -35,6 +36,7 @@ make test
 %doc CHANGES README TODO
 %{perl_vendorlib}/CGI/Lite.pm
 %{_mandir}/*/*
+
 
 
 
