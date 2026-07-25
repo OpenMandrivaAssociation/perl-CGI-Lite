@@ -1,17 +1,17 @@
 %define upstream_name    CGI-Lite
-%define upstream_version 2.03
+%define upstream_version 3.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	CGI-Lite module for perl 
 
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/CGI/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://gitlab.com/openstrike/cgi-lite
+Source0:	https://cpan.metacpan.org/authors/id/H/HO/HOUSTON/CGI-Lite-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
