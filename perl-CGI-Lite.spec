@@ -1,9 +1,7 @@
 %define upstream_name    CGI-Lite
-%define upstream_version 3.03
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	3.03
+Release:	2
 
 Summary:	CGI-Lite module for perl 
 
@@ -11,7 +9,7 @@ Summary:	CGI-Lite module for perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://gitlab.com/openstrike/cgi-lite
-Source0:	https://cpan.metacpan.org/authors/id/H/HO/HOUSTON/CGI-Lite-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/H/HO/HOUSTON/CGI-Lite-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -23,7 +21,7 @@ uploads, as well as cookies in a very simple manner; you need not concern
 yourself with the actual details behind the decoding process.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
